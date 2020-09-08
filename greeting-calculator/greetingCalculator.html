@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Greeting Calculator</title>
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="title">
+            <h2> Greeting Calculator</h2>
+        </div>
+    
+        <div class="group">      
+            <input type="text" class="name-input"required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Name</label>
+        </div>
+        <div class ="calculator">    
+            <div class ="calculator__display">0</div>
+                <div class ="calculator__keys">
+                    <button >Friend A</button>
+                    <button >Friend B</button>
+                    <button >Friend C</button>
+                    <button >Friend D</button>
+                    <button >Friend E</button>
+                    <button >Friend F</button>
+                    <button >Friend G</button>
+                    <button >Friend H</button>
+                    <button class="key-hello" data-greeting="Hello,World!" >sH</button>
+                    <button class="key-hello" data-greeting="Goodbye!">sG</button>
+                    <button class="clear key-hello" data-greeting="clear">AC</button>
+            </div>
+         </div>
+    </div>
+    <script src="app.js" ></script>
+</body>
+</html>
