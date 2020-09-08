@@ -108,10 +108,8 @@ html {
 
 body {
   align-items: center;
-  background: #EFEFBB;  /* fallback for old browsers */
-  /* background: -webkit-linear-gradient(to left, #D4D3DD, #EFEFBB);  Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+  background: #EFEFBB;  
+  background: linear-gradient(to right, #D4D3DD, #EFEFBB);     
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -170,14 +168,6 @@ body {
   right: 0;
   top: 0;
   z-index: 1;
-}
-
-.key--operator {
-  background-color: #eee;
-}
-
-.key--operator:active{
-  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2) inset;
 }
 
 

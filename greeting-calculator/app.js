@@ -11,8 +11,6 @@ let uiController = (() => {
             return obj;
         }
     }
-
-
 })()
 
 let main = (( UICtrls) => {
@@ -81,5 +79,5 @@ let main = (( UICtrls) => {
         }
     }
 
-})(calcController,uiController)
+})(uiController)
 main.init()
